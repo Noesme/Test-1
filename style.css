@@ -1,0 +1,24 @@
+/*Root kontrollerar värden som jag kan använda likt variabler i figma */
+:root {
+    --color-purple: rgb(207, 76, 207);
+    --color-background: #f3f3f3;
+    --color-box: #85b699;
+    --color-text: #000000;
+    --font-heading: "Wendy One", sans-serif;
+    --font-body: "Wendy One", sans-serif;
+
+    --max-width: 1040;
+    --spacing: 20px;
+}
+*{
+    box-sizing: border-box;
+}
+
+/*header och menu*/
+
+/*typografi*/
+ h1 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+        
+}
